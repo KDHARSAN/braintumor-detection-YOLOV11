@@ -2,9 +2,6 @@
  This repository features a YOLOv8 model for tumor detection in medical images. Trained on a custom dataset for 50 epochs with 640x640 images, it delivers precise results with minimal loss. The model supports seamless training, evaluation, and visualization of predictions, offering a robust tool for advancing medical imaging diagnostics
 
 
-Here’s a refined 350-word description for your GitHub repository:  
-
----
 
 # Tumor Detection Using YOLOv8  
 
@@ -20,14 +17,15 @@ The YOLOv8 model is trained on a custom dataset using a tailored configuration t
 - **Evaluation**: The trained model is tested on a separate dataset to validate performance and generate detection outputs with precision bounding boxes.  
 - **Performance Metrics**: Achieves robust results with a focus on minimizing training loss and maximizing detection accuracy.  
 
- How to Use  
+## How to Use  
 
-1. Train the Model 
+1. **Train the Model**  
    Run the following command to start training:  
    ```bash  
    !yolo detect train data=/path/to/data.yaml epochs=50 imgsz=640  
    ```  
-2. Evaluate the Model
+
+2. **Evaluate the Model**  
    Load and evaluate the trained model on test images:  
    ```python  
    from ultralytics import YOLO  
@@ -36,8 +34,10 @@ The YOLOv8 model is trained on a custom dataset using a tailored configuration t
    results = model("/path/to/test/image.jpg", save=True)  
    ```  
 
-3. Results Visualization
+3. **Results Visualization**  
    The model outputs annotated images showing detected tumor regions, enabling visual analysis.  
 
 ## Future Work  
 This project sets the foundation for enhancing tumor detection accuracy. Future improvements could include fine-tuning the model on larger datasets, integrating additional metrics for evaluation, and deploying the system for real-time detection applications.  
+
+
