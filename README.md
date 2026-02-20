@@ -1,6 +1,6 @@
 
 
-# Tumor Detection Using YOLOv8  
+# Tumor Detection Using YOLOv11  
 
 This repository implements a YOLOv11 model for tumor detection, designed for efficient and accurate identification of tumor regions in medical images.  
 
