@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository implements a YOLOv11-based object detection model for automated brain tumor localization in medical imaging data. The model is trained to detect tumor regions using bounding box predictions with high precision and real-time inference capability.
+This repository implements a YOLOv11-based object detection model for automated brain tumor localization in medical imaging data. The model is trained to detect tumor regions using bounding box predictions with high precision and realtime inference capability.
 
 ---
 
